@@ -1,0 +1,355 @@
+
+
+/* ----------------*/
+/* NAVIGATION */
+/* ----------------*/
+
+* {
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+}
+
+
+.logo {
+    width: 150px;
+}
+
+.navbar {
+    width: 100%;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    background-color:rgba(0, 0, 0, 10);
+
+}
+
+.navbar ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 12px 10px;
+
+}
+
+li {
+    list-style-type: none;
+    padding: 10px 5px;
+    margin-top: 15px;
+    
+}
+
+.hero {
+    width: 100%;
+}
+
+/* ----------------*/
+/* HOMEPAGE */
+/* ----------------*/
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+p {
+    font-size: 0.5em;
+    line-height: 1.6;
+    color: #333;
+}
+
+main {
+    width: 100%;
+}
+.container {
+    background-color: #a9b8ad ;
+    padding: 20px 20px;
+}
+
+.cards {
+    display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(220px, 300px));
+     gap: 15px;
+     justify-content: center;
+}
+
+.card {
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 20px;
+}
+
+.index-card {
+    width: 55%;
+    max-width: 160px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.product-description {
+    color: black;
+    max-width: 600%;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 1em;
+    font-size: 1.5em;
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    opacity: 0.7;
+    text-decoration: underline;
+}
+a:link {
+    color: azure;
+    font-weight: bold;
+}
+
+a:visited {
+    color: azure;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+}
+
+.product_label {
+    margin-top: 5px;
+
+}
+
+.card button {
+    align-self: center;
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 0.5em;
+}
+button {
+  appearance: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 1em;
+
+}
+
+.card button:hover {
+    background-color:  rgba(0, 0, 0, 0.8);
+    color: #fff;
+    transition: background-color, 0.3s ease;
+}
+.card button:visited {
+    background-color: white;
+}
+
+/* ----------------*/
+/* CONTACT */
+/* ----------------*/
+
+#title {
+    font-weight: 500;
+}
+.grey-frame {
+    display: flex;
+    flex-direction: column;
+    margin: 2em auto;
+    padding: 40px;
+    background: #f8f4f4;
+    max-width: 80%;
+
+}
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+     .name-row {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        max-width: 600px;
+    }
+
+    .field {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .field.email {
+        max-width: 400px;
+    }
+
+    .field.message {
+        max-width: 800px;
+    }
+
+    .field input,
+    .field textarea {
+        width: 100%;
+    }
+
+button {
+
+    max-width: 40%;
+    align-self: flex-end;
+    background: #C19A6B;
+    color: azure;
+    padding: 1em;
+    font-weight: bold;
+
+}
+
+.contact-form {
+    border: none;
+}
+
+.description-text {
+    padding-bottom: 1.5em;
+    text-align: left;
+}
+
+/* ----------------*/
+/* workshop Info */
+/* ----------------*/
+
+.info {
+    text-align: center;
+}
+
+.class_info {
+    margin: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.class_info p {
+    font-size: 15px;
+    padding: 10px;
+
+}
+
+.class_info a {
+    color: black;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+.hoopearrings {
+    max-width: 350px;
+    margin: 10px 0;
+}
+
+/* ----------------*/
+/* PRODUCT PAGE */
+/* ----------------*/
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 0 20px;
+
+}
+    
+
+.product_images {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+}
+
+.shop-heading {
+    text-align: center;
+    padding: 25px;
+    font-size: 1.5em; 
+}
+
+
+
+
+/* ----------------*/
+/* FOOTER */
+/* ----------------*/
+
+.instagram-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+  border-radius: 10px;;
+}
+
+.fa-instagram {
+  background: black;
+  color: white;
+}
+
+.credits {
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+@media screen and (max-width: 768px) {
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        padding: 0;
+        margin: 0;
+    }
+
+    .product-description {
+        font-size: 1em;
+    }
+}
+    
+@media screen and (max-width: 540px) {
+    .name-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-form {
+        gap: 10px;
+    }
+    
+}

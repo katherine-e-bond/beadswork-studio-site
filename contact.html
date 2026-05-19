@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width,initial-scale=1.0">
+        <title>Beadswork Studio</title>
+        <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    </head>
+<body>
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <img class="logo" src="images\indexlogov2.png">
+                   <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Shop</a></li>
+                    <li><a href="workshops.html">Workshops</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <section class="grey-frame">
+     <div class="description-text">
+        <h1>Get in Touch</h1>
+        <h2>I'd like to hear from you!</h2>
+       
+     </div>   
+     <form class="contact-form">
+        <div class="name-row">
+            <div class="field">
+                    <label class="fname" for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname">
+                </div>        
+            <div class="field">    
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname">
+            </div>
+            </div>    
+        <div class="field email">    
+                <label for="email">Email:</label>
+                <input required type="email" name="email" id="email">
+        </div>
+        
+        <div class="field message">
+                <label for="message">Message</label>
+                <textarea cols="30" rows="10" name="message" id="message"></textarea>
+        </div>               
+    <button type="submit">Submit Form</button>      
+      </form>
+    </section>
+    </main>
+</body>
