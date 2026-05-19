@@ -1,4 +1,4 @@
-# Beadwork Studio Website
+# Beadswork Studio Website
 
 A responsive jewellery website built while learning frontend development.
 
